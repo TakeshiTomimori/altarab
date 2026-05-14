@@ -860,3 +860,174 @@ display:block
 
 .pc{display:none;}
 }
+
+/* Fidelity adjustments for the exported Teachable layout */
+body {
+font-size: 14px;
+}
+
+.img-responsive {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+.top_innerimg-svg {
+max-width: 70%;
+}
+
+.site-header {
+height: 60px;
+position: relative;
+padding: 0 55px 0 70px;
+background: #2b3636;
+box-shadow: none;
+}
+
+.brand img {
+width: 119px;
+height: 60px;
+object-fit: contain;
+}
+
+.site-nav {
+gap: 25px;
+font-size: 14px;
+font-weight: 500;
+}
+
+.site-signup {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+min-width: 94px;
+height: 39px;
+padding: 0 18px;
+border-radius: 22px;
+background: #09a59a;
+color: #fff;
+}
+
+.site-signup:hover {
+text-decoration: none;
+}
+
+.site-menu-icon {
+display: none;
+width: 22px;
+height: 18px;
+border-top: 2px solid #fff;
+border-bottom: 2px solid #fff;
+position: relative;
+}
+
+.site-menu-icon::before {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 6px;
+border-top: 2px solid #fff;
+}
+
+.btn-hg {
+font-size: 17px;
+padding: 12px 30px;
+}
+
+.btn,
+.button,
+button {
+display: inline-block;
+}
+
+.course-description {
+padding: 0 15px;
+font-size: 14px;
+}
+
+.rich_text .container,
+.video_embed .row,
+.curriculum .container {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+@media screen and (max-width: 650px) {
+.site-header {
+height: 48px;
+padding: 0 30px;
+}
+
+.brand img {
+width: 95px;
+height: 48px;
+}
+
+.site-nav a {
+display: none;
+}
+
+.site-menu-icon {
+display: block;
+}
+
+.top_container .top_innerbox {
+flex-grow: 0;
+flex-basis: auto;
+width: 305px;
+padding: 2em;
+}
+
+.btn-header-enroll {
+min-width: 170px;
+height: 50px;
+}
+
+.top_container .top_innerimg {
+flex-grow: 0;
+flex-basis: auto;
+width: 316px;
+margin: 0;
+}
+
+.top_innerimg-right {
+max-width: 50%;
+}
+
+.top_wrap {
+padding-bottom: 41px;
+}
+
+.row {
+margin-left: -15px;
+margin-right: -15px;
+}
+
+.row>[class*=col-] {
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.col-xs-10 {
+width: 83.33333333%;
+}
+
+.col-xs-offset-1 {
+margin-left: 8.33333333%;
+}
+
+.top_wrap p {
+font-size: 1.2em;
+}
+
+.btn-hg {
+font-size: 17px;
+padding: 12px 30px;
+}
+
+.course-description {
+padding: 0 15px;
+font-size: 14px;
+}
+}
