@@ -864,6 +864,7 @@ display:block
 /* Fidelity adjustments for the exported Teachable layout */
 body {
 font-size: 14px;
+line-height: 1.42857143;
 }
 
 .img-responsive {
@@ -935,6 +936,12 @@ font-size: 17px;
 padding: 12px 30px;
 }
 
+.btn-header-enroll {
+min-width: 170px;
+height: 50px;
+line-height: 24.2857px;
+}
+
 .btn,
 .button,
 button {
@@ -946,11 +953,55 @@ padding: 0 15px;
 font-size: 14px;
 }
 
+.container {
+width: 1170px;
+max-width: calc(100% - 30px);
+}
+
 .rich_text .container,
 .video_embed .row,
 .curriculum .container {
 padding-top: 50px;
 padding-bottom: 50px;
+}
+
+.img-sec-title,
+.img-sec-body p,
+.price-table,
+.text-sec ul li,
+.course-description,
+.s-profile-sec p {
+line-height: 1.42857143;
+}
+
+.price-table-wrapper .enroll-button {
+width: max-content;
+min-width: 186px;
+line-height: 25.7143px;
+}
+
+.section-title {
+background: #e8e8e8;
+color: #212338;
+border-radius: 0;
+padding: 10px 16px;
+font-size: 15px;
+line-height: 21.4286px;
+}
+
+.section-list {
+border-color: #e8e8e8;
+}
+
+.section-item .item {
+padding: 12px 16px;
+}
+
+.video-placeholder {
+min-height: 520px;
+background: transparent;
+color: transparent;
+border-radius: 0;
 }
 
 @media screen and (max-width: 650px) {
@@ -980,7 +1031,6 @@ padding: 2em;
 }
 
 .btn-header-enroll {
-min-width: 170px;
 height: 50px;
 }
 
